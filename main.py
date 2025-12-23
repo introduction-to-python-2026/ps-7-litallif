@@ -7,7 +7,7 @@ print(data.DESCR)
 df = data.frame
 df.sample(5) 
 df.describe()
-df.dtypes
+df.dtypes 
 features = list(data.frame.columns)
 print("Available features:", features)
 features = df.columns
