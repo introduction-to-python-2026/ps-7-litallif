@@ -5,7 +5,7 @@ import pandas as pd
 data=fetch_openml(name='wine', version=1, as_frame=True)
 print(data.DESCR)
 df = data.frame
-df.sample(5)
+df.sample(5) 
 df.describe()
 df.dtypes
 features = list(data.frame.columns)
